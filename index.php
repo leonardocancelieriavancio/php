@@ -1,16 +1,15 @@
 <?php
 
-echo "Hello World!";
-
 /**
 * Class Initial in project
 */
-class HelloWorld extends BaseClass
+class HelloWorld
 {	
-	function __construct(argument)
+	function __construct($argument)
 	{
-		echo argument;
+		return $argument;
 	}
 }
 
-new HelloWorld("Hello World");
+$helloWorld = new HelloWorld("Hello World");
+echo $helloWorld;
