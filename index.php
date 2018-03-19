@@ -7,7 +7,14 @@ class HelloWorld
 {	
 	function __construct($argument)
 	{
-		return $argument;
+		$this->show($argument);
+	}
+	
+	function show($message){
+		if(empty($message)){
+			echo "Mensagem Padrão!";	
+		}
+		echo $message;
 	}
 }
 
