@@ -5,11 +5,12 @@ echo "Hello World!";
 /**
 * Class Initial in project
 */
-class HelloWorld extends AnotherClass
-{
-	
+class HelloWorld extends BaseClass
+{	
 	function __construct(argument)
 	{
-		# code...
+		echo argument;
 	}
 }
+
+new HelloWorld("Hello World");
