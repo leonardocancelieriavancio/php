@@ -7,7 +7,11 @@ class HelloWorld
 {	
 	function __construct($argument)
 	{
-		return $argument;
+		return $this->test(); 
+	}
+
+	function test(){
+		return "ABCD";
 	}
 }
 
