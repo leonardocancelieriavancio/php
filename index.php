@@ -18,5 +18,5 @@ class HelloWorld
 	}
 }
 
-$helloWorld = new HelloWorld("Hello World");
-echo $helloWorld;
+new HelloWorld("Hello World");
+
